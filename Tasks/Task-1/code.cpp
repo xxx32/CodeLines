@@ -1,10 +1,10 @@
-#include <stdio.h>
+#include <iostream> 
 using namespace std;
 
-int mex=1e8;
-long long int arr[mex];
+long long int mex=1e8; 
+long long int arr[100000000]; 
 
-void main()
+int main()  
 {
     int l,r;
    
